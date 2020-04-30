@@ -3,7 +3,6 @@
   .container {
     max-width: 658px;
   }
-
 }
 
 @media (min-width: 1200px) {
@@ -11,25 +10,36 @@
     max-width: 1140px;
   }
 }
-@media screen and (max-width: 1200px) {
+@media all and (max-width: 1000px) {
   body {
     overflow-x: hidden;
   }
-
+  .profil{
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .nama{
+    margin-left: 57px;
+  }
+  .txt-contents{
+  margin-left: 37px;
+  }
   .inner .logo-alpa {
     position: absolute;
     right: -15px;
     top: 200px;
-    height: 550px;
- 
-}
-@media screen and (max-width: 670px) {
+    height: 550px; 
+  }
+@media all and (max-width: 670px) {
   body {
     overflow-x: hidden;
   }
-  .lesson {
+  .profil {
     width: 100%;
   }
+
+  .txt-contents{
+  margin-left: 37px;
   .inner {
     margin-top: 30px;
   }
@@ -45,13 +55,7 @@
   }
   .txt-contents {
     width: 100%;
-  }
-   }
-  .profil {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-  
+  }  
   .heading h2 {
     font-size: 20px;
   }
@@ -59,9 +63,10 @@
   .heading h3 {
     font-size: 20px;
   }
-  
+  .btn {
+    width: 100%;
+  }
   footer {
     text-align: center;
   }
-
 }
